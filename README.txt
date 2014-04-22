@@ -3,7 +3,7 @@ Contributors: tipiirai, PaulHughes01
 Tags: forum, commenting, realtime, community, comment, forums, moot, muut
 Requires at least: 3.0.0
 Tested up to: 3.8
-Stable tag: 2.0.14
+Stable tag: 2.0.15
 License: MIT
 License URI: https://github.com/moot/wordpress/blob/master/LICENSE.txt
 
