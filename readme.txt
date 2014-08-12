@@ -81,8 +81,8 @@ There are several great ways to learn more about and get help with the plugin. T
 1. A Muut forum
 2. Muut post commenting
 3. Online Users widget
-4. Latest Comments widget
-5. Trending Posts widget
+4. Latest Comments widget (with subscription)
+5. Trending Posts widget (with subscription)
 6. Discussion Channel widget
 7. My Feed widget
 8. Muut settings page
