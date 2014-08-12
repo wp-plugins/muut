@@ -72,6 +72,11 @@ There are several great ways to learn more about and get help with the plugin. T
 2. Muut post commenting
 3. Muut settings page
 4. Muut post/page editor panel
+5. Latest Comments widget
+6. Trending Posts widget
+7. Online Users widget
+8. Discussion Channel widget
+9. My Feed widget
 
 == Upgrade Notice ==
 
