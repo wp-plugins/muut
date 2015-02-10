@@ -3,7 +3,7 @@ Contributors: PaulHughes01, tipiirai, jannelehtinen
 Tags: forum, commenting, comments, social, realtime, discussion, widgets
 Requires at least: 3.7
 Tested up to: 4.1
-Stable tag: 3.0.3.1
+Stable tag: 3.0.4
 License: MIT
 License URI: https://github.com/moot/wordpress/blob/master/LICENSE.txt
 
@@ -12,6 +12,8 @@ License URI: https://github.com/moot/wordpress/blob/master/LICENSE.txt
 Muut represents a complete re-imagination of what internet discussion forums and commenting should be like.
 
 It’s a modern, fast, highly scalable discussion platform that you can embed onto your WordPress website, and personalize with css to match the design of your site. For more information on why we do what we do, check out our [manifesto](https://muut.com/manifesto/).
+
+With Muut, you have a discussion platform that offers unlimited posts, comments, users, threads (everything, really) 100% free—forever. We also have some premium packages available (free to try!) that offer additional features to augment your community. You can see more details about that optional extra functionality on our [pricing page](https://muut.com/pricing/).
 
 Whether you’re setting up for the first time or have just updated to the new version of the plugin, you’re going to love what we’ve done to make implementing Muut in your WordPress website easy and flexible.
 
@@ -90,6 +92,9 @@ There are several great ways to learn more about and get help with the plugin. T
 
 == Upgrade Notice ==
 
+= 3.0.4 =
+The update to version 3.0.4 is mainly small but important bug fixes and improvements in notifications for errors and possible problems with environment.
+
 = 3.0.3 =
 The update to version 3.0.3 is mainly an update for compatibility with 4.1 and Twenty-Fifteen.
 
@@ -103,6 +108,17 @@ The update to version 3.0.1 is a small update with a couple big fixes and better
 The update to version 3.0 is a major update that enhances the plugin experience in a large way. The update _does_ support all of the earlier plugin functionality (such as the shortcodes), but we recommend updating when you have a little bit of time to experiment and ensure that everything continues to work as expected. We hope you enjoy the new version!
 
 == Changelog ==
+
+= 3.0.4 =
+Notes
+
+* S3 bucket now accepts just the bucket name rather than the full URL. Should adjust transparently, but a very small group of users may need to change by hand (the plugin will notify).
+
+Bug Fixes
+
+* Fixed problem where SEO link was not displaying for some signed communities.
+* Added admin notifications for small permissions problems, such as unwriteable .htaccess or inaccessible uploads directory.
+* Various small bug fixes.
 
 = 3.0.3.1 =
 Notes
