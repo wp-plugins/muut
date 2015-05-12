@@ -1,0 +1,962 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Muut\n"
+"POT-Creation-Date: 2015-05-12 10:36-0500\n"
+"PO-Revision-Date: 2015-05-12 10:36-0500\n"
+"Last-Translator: Paul Hughes <paul@paulalexanderhughes.com>\n"
+"Language-Team: Paul Hughes <paul@paulalexanderhughes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/admin/admin-contextual-help.class.php:98
+msgid "Overview"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:104
+msgid "General"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:110
+#: lib/admin/admin-post-editor.class.php:122
+#: lib/admin/admin-post-editor.class.php:123 views/admin-settings.php:78
+msgid "Commenting"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:116
+msgid "SEO"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:122 views/admin-settings.php:127
+msgid "Signed Setup"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:128
+msgid "Federated Identities"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:134
+msgid "Webhooks"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:267
+msgid "Muut Commenting"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:272
+msgid "Muut Channel"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:277
+msgid "Muut Forum"
+msgstr ""
+
+#: lib/admin/admin-contextual-help.class.php:350
+msgid "Muut Widgets"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:130
+msgid "Use Muut for commenting"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:133
+#: views/blocks/help-tab-muut-widgets.php:17
+msgid "Channel"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:134
+msgid "Channel embedding"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:141
+msgid "Enable channel (a standalone discussion area)"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:144
+msgid "Forum"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:145
+msgid "Forum embedding"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:152
+#: views/blocks/help-tab-post-editor-forum.php:14
+msgid "Enable forum"
+msgstr ""
+
+#: lib/admin/admin-post-editor.class.php:172 lib/muut.class.php:998
+#: lib/muut.class.php:999 views/admin-settings.php:36
+msgid "Muut"
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:112
+msgid "Settings successfully saved, other than the errors listed."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:115
+msgid "Settings successfully saved."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:119
+msgid "Failed to save settings."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:189
+#, php-format
+msgid ""
+"It looks like the %sMuut Plugin%s doesn't have permission to edit your ."
+"htaccess file. If you want to have content indexable under your website's "
+"domain, you should head over to the bottom of your site's %sPermalinks%s "
+"settings and copy the new code there to your .htaccess file."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:285
+msgid ""
+"Custom S3 Bucket name must be associated with a valid server. Make sure it "
+"matches the bucket you set up with Muut from your forum page settings."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:308
+msgid ""
+"Forum name must contain no spaces or special characters of any kind. Make "
+"sure the forum name is the name you registered with Muut when you set up the "
+"forum."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:336
+msgid "API Key must have no spaces and only alphanumeric characters."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:365
+msgid "Secret Key must have no spaces and only alphanumeric characters."
+msgstr ""
+
+#: lib/admin/admin-settings.class.php:450
+#, php-format
+msgid ""
+"Enjoying Muut? We'd love it you would pop over to the %splugin page%s and "
+"leave a rating and review!"
+msgstr ""
+
+#: lib/channel.utility.class.php:67 lib/comment-overrides.class.php:204
+#: lib/comment-overrides.class.php:218 lib/muut.class.php:556
+msgid "Comments"
+msgstr ""
+
+#: lib/comment-overrides.class.php:200
+#, php-format
+msgid "Comments on %s"
+msgstr ""
+
+#: lib/custom-post-types.class.php:102 lib/custom-post-types.class.php:107
+msgid "Muut Threads"
+msgstr ""
+
+#: lib/custom-post-types.class.php:103
+msgid "Muut Thread"
+msgstr ""
+
+#: lib/custom-post-types.class.php:109
+msgid ""
+"This post type is not for public use, but is mainly for storing Muut thread "
+"data passed to it via webhooks."
+msgstr ""
+
+#: lib/custom-post-types.class.php:125
+msgid "Public Muut Post"
+msgstr ""
+
+#: lib/custom-post-types.class.php:130
+msgid "Spammed Muut Post"
+msgstr ""
+
+#: lib/muut.class.php:366
+#, php-format
+msgid ""
+"It looks like the %sMuut Plugin%s doesn't have permission to edit your ."
+"htaccess file. If you want to have content indexable under your website's "
+"domain, you should head over to your site's %sPermalinks%s settings and "
+"select a different permalink structure."
+msgstr ""
+
+#: lib/muut.class.php:552
+msgid "Go ahead!"
+msgstr ""
+
+#: lib/muut.class.php:553
+msgid "Don't do that!"
+msgstr ""
+
+#: lib/muut.class.php:557
+msgid "Admin"
+msgstr ""
+
+#: lib/muut.class.php:558 lib/widgets/widget-latest-comments.class.php:394
+msgctxt "comment-just-posted"
+msgid "just now"
+msgstr ""
+
+#: lib/muut.class.php:559 lib/widgets/widget-latest-comments.class.php:396
+msgctxt "abbreviation-for-minutes"
+msgid "m"
+msgstr ""
+
+#: lib/muut.class.php:560 lib/widgets/widget-latest-comments.class.php:398
+msgctxt "abbreviation-for-hours"
+msgid "h"
+msgstr ""
+
+#: lib/muut.class.php:561 lib/widgets/widget-latest-comments.class.php:400
+msgctxt "abbreviation-for-days"
+msgid "d"
+msgstr ""
+
+#: lib/muut.class.php:562 lib/widgets/widget-latest-comments.class.php:402
+msgctxt "abbreviation-for-weeks"
+msgid "w"
+msgstr ""
+
+#: lib/muut.class.php:809
+msgid "Arabic"
+msgstr ""
+
+#: lib/muut.class.php:810
+msgid "Brazil Portuguese"
+msgstr ""
+
+#: lib/muut.class.php:811
+msgid "Bulgarian"
+msgstr ""
+
+#: lib/muut.class.php:812
+msgid "Chinese"
+msgstr ""
+
+#: lib/muut.class.php:813
+msgid "Chinese / Taiwan"
+msgstr ""
+
+#: lib/muut.class.php:814
+msgid "Dutch"
+msgstr ""
+
+#: lib/muut.class.php:815
+msgid "English"
+msgstr ""
+
+#: lib/muut.class.php:816
+msgid "Finnish"
+msgstr ""
+
+#: lib/muut.class.php:817
+msgid "French"
+msgstr ""
+
+#: lib/muut.class.php:818
+msgid "German"
+msgstr ""
+
+#: lib/muut.class.php:819
+msgid "Hungarian"
+msgstr ""
+
+#: lib/muut.class.php:820
+msgid "Hebrew"
+msgstr ""
+
+#: lib/muut.class.php:821
+msgid "Indonesian"
+msgstr ""
+
+#: lib/muut.class.php:822
+msgid "Japanese"
+msgstr ""
+
+#: lib/muut.class.php:823
+msgid "Korean"
+msgstr ""
+
+#: lib/muut.class.php:824
+msgid "Polish"
+msgstr ""
+
+#: lib/muut.class.php:825
+msgid "Russian"
+msgstr ""
+
+#: lib/muut.class.php:826
+msgid "Spanish"
+msgstr ""
+
+#: lib/muut.class.php:827
+msgid "Swedish"
+msgstr ""
+
+#: lib/muut.class.php:828
+msgid "Tamil"
+msgstr ""
+
+#: lib/muut.class.php:829
+msgid "Turkish"
+msgstr ""
+
+#: lib/muut.class.php:1297
+#, php-format
+msgid ""
+"The %sMuut Plugin%s update to version 3.0.3 revised the default Forum "
+"Template (just a little!). You might want to head over to your %sForum Page"
+"%s and make sure it all looks as you expect! Check the post on our "
+"%sWordPress support forum%s about the latest release for details or help."
+msgstr ""
+
+#: lib/muut.class.php:1298
+msgid "Happy Muuting! :-)"
+msgstr ""
+
+#: lib/muut.class.php:1322
+#, php-format
+msgid ""
+"The %sMuut Plugin%s has some advanced functionality that requires your "
+"uploads directory be writeable. You should create a directory with "
+"permissions 755 at %s, or change the permissions of the main uploads "
+"directory to 755. There are instrucitons on how to do that %shere%s."
+msgstr ""
+
+#: lib/shortcodes.class.php:142
+#, php-format
+msgid ""
+"%sMuut Notice:%s It looks like you're using old shortcodes in this post. "
+"Check out our new %sadmin page%s to check out your alternatives, as we will "
+"not be supporting shortcodes much longer!"
+msgstr ""
+
+#: lib/shortcodes.class.php:155
+#, php-format
+msgid ""
+"%sMuut Notice:%s The [no-moot]/[no-muut] shortcode has been replaced by "
+"simply deactivating comments for a given page or post. You can do that in "
+"the Discussion metabox on this editor and then remove the shortcode from the "
+"content."
+msgstr ""
+
+#: lib/subscriber/webhooks.class.php:236
+msgid ""
+"Note that webhooks functionality will only work for posts made after "
+"activation."
+msgstr ""
+
+#: lib/updater.class.php:233
+#, php-format
+msgid ""
+"The %sMuut Plugin%s has been updated to version 3.0.4, but there was an "
+"error converting your S3 bucket to the new format (just the bucket name, not "
+"the full URL). Your S3 bucket has been disabled; would you like to %sgo fix "
+"it%s right now?"
+msgstr ""
+
+#: lib/widgets/widget-channel-embed.class.php:34
+msgid "Muut Discussion Channel"
+msgstr ""
+
+#: lib/widgets/widget-channel-embed.class.php:36
+msgid "Use this to embed a specific channel in a widget area."
+msgstr ""
+
+#: lib/widgets/widget-latest-comments.class.php:53
+msgid "Muut Latest Comments"
+msgstr ""
+
+#: lib/widgets/widget-latest-comments.class.php:55
+msgid "Use this to show the latest posts with Muut comments."
+msgstr ""
+
+#: lib/widgets/widget-my-feed.class.php:34
+msgid "Muut 'My Feed'"
+msgstr ""
+
+#: lib/widgets/widget-my-feed.class.php:36
+msgid "Use this to show a logged in user's personal Muut feed."
+msgstr ""
+
+#: lib/widgets/widget-my-feed.class.php:98
+msgid "Login"
+msgstr ""
+
+#: lib/widgets/widget-online-users.class.php:34
+msgid "Muut Online Users"
+msgstr ""
+
+#: lib/widgets/widget-online-users.class.php:36
+msgid "Use this to show the online users in a widget."
+msgstr ""
+
+#: lib/widgets/widget-online-users.class.php:145
+msgctxt "anonymous users"
+msgid "anonymous"
+msgstr ""
+
+#: lib/widgets/widget-trending-posts.class.php:41
+msgid "Muut Trending Posts"
+msgstr ""
+
+#: lib/widgets/widget-trending-posts.class.php:43
+msgid "Use this to show the Muut posts with the most activity."
+msgstr ""
+
+#: muut.php:43
+#, php-format
+msgid "%sMuut%s plugin failed to initialize.%s"
+msgstr ""
+
+#: views/admin-post-metabox.php:77
+#, php-format
+msgid "Enabling this will disable other types of Muut embeds on this %s."
+msgstr ""
+
+#: views/admin-settings.php:36
+msgid "Forums and commenting re-imagined."
+msgstr ""
+
+#: views/admin-settings.php:41
+#, php-format
+msgid ""
+"Please enter the name of your Muut forum. If you don't have one, please "
+"%ssetup now%s!"
+msgstr ""
+
+#: views/admin-settings.php:42
+msgid ""
+"You can have any number of forums, users, or commenting pages. No traffic "
+"limits: 10, 1,000, or 100,000,000 loads a day, for free."
+msgstr ""
+
+#: views/admin-settings.php:48 views/blocks/help-tab-settings-general.php:11
+msgid "Forum Name"
+msgstr ""
+
+#: views/admin-settings.php:59
+msgid "Continue"
+msgstr ""
+
+#: views/admin-settings.php:64 views/blocks/help-tab-settings-general.php:15
+msgid "Language"
+msgstr ""
+
+#: views/admin-settings.php:84
+#: views/blocks/help-tab-settings-commenting.php:11
+msgid "Use Muut for post commenting"
+msgstr ""
+
+#: views/admin-settings.php:90
+msgid "Use Muut commenting on posts with existing comments (data not deleted)"
+msgstr ""
+
+#: views/admin-settings.php:95
+msgid "Search Engine Optimization (SEO)"
+msgstr ""
+
+#: views/admin-settings.php:102
+#, php-format
+msgid "Allow search engines to crawl discussions at %s"
+msgstr ""
+
+#: views/admin-settings.php:108
+#, php-format
+msgid "Serve from your own S3 Bucket (%sRequires Small Subscription%s)"
+msgstr ""
+
+#: views/admin-settings.php:113
+msgid "S3 Bucket Name"
+msgstr ""
+
+#: views/admin-settings.php:122
+msgid ""
+"The bucket name you enter must be the same S3 bucket registered for the "
+"forum in the Muut settings"
+msgstr ""
+
+#: views/admin-settings.php:128
+#, php-format
+msgid ""
+"If you have a Small or Medium subscription and are using Federated "
+"Identities (Small) or Secure Embedding (Medium), you need to enter your API "
+"credentials to sign the embed. You can see the details of our premium plans "
+"at our %spricing list%s or %supgrade your forum now%s."
+msgstr ""
+
+#: views/admin-settings.php:134 views/admin-settings.php:173
+msgid "Enable"
+msgstr ""
+
+#: views/admin-settings.php:140
+msgid "API Key"
+msgstr ""
+
+#: views/admin-settings.php:148
+msgid "Secret Key"
+msgstr ""
+
+#: views/admin-settings.php:156
+msgid "Caching?"
+msgstr ""
+
+#: views/admin-settings.php:160
+msgid ""
+"Enable if using a caching plugin. (Cache must be set to expire every 24 "
+"hours or less)"
+msgstr ""
+
+#: views/admin-settings.php:165
+msgid "Federated Identities (formerly Single Sign-On)"
+msgstr ""
+
+#: views/admin-settings.php:166
+#, php-format
+msgid ""
+"%sUpgrade your forum%s to a Small or Medium subscription to use your "
+"website’s user authentication system on your forum. No logging in twice—"
+"WordPress users automatically become Muut users."
+msgstr ""
+
+#: views/admin-settings.php:179
+msgid "Widgets"
+msgstr ""
+
+#: views/admin-settings.php:181
+msgid ""
+"The plugin comes packed with the following real-time widgets that you can "
+"place on any page."
+msgstr ""
+
+#: views/admin-settings.php:183
+#, php-format
+msgid "%sMy Feed%s - List of the current user's most recent posts."
+msgstr ""
+
+#: views/admin-settings.php:184
+#, php-format
+msgid "%sWho's Online%s - A real-time list of currently logged-in users."
+msgstr ""
+
+#: views/admin-settings.php:185
+#, php-format
+msgid ""
+"%sDiscussion Channel%s - Embed a single discussion channel in to your "
+"website's sidebar."
+msgstr ""
+
+#: views/admin-settings.php:186
+#, php-format
+msgid ""
+"%sLatest Comments%s - The most recent comments on your site, updating in "
+"real-time."
+msgstr ""
+
+#: views/admin-settings.php:186 views/admin-settings.php:187
+msgid "Uses webhooks"
+msgstr ""
+
+#: views/admin-settings.php:187
+#, php-format
+msgid ""
+"%sTrending Topics%s - The most popular discussion, updating in real-time."
+msgstr ""
+
+#: views/admin-settings.php:194
+msgid "Configure webhooks for latest comments or trending topics"
+msgstr ""
+
+#: views/admin-settings.php:197
+msgid "Finish Setup"
+msgstr ""
+
+#: views/admin-settings.php:211
+msgid "To complete your webhooks setup..."
+msgstr ""
+
+#: views/admin-settings.php:212
+msgid ""
+"From your main forum page, open the Muut settings, select the integrations "
+"tab, and create a new integration as below using the following URL and "
+"secret:"
+msgstr ""
+
+#: views/blocks/help-tab-muut-widgets.php:10
+msgid ""
+"The Muut plugin is now packaged with five widgets. Click the widget name "
+"below to see its full documentation."
+msgstr ""
+
+#: views/blocks/help-tab-muut-widgets.php:14
+msgid "My Feed"
+msgstr ""
+
+#: views/blocks/help-tab-muut-widgets.php:20
+msgid "Latest Comments"
+msgstr ""
+
+#: views/blocks/help-tab-muut-widgets.php:23
+msgid "Online Users"
+msgstr ""
+
+#: views/blocks/help-tab-muut-widgets.php:26
+msgid "Trending Posts"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:10
+msgid ""
+"This tab is used to embed a single channel at this location. It acts like "
+"Channels on the main forum, but the forum's navigation is not visible. It "
+"will generate the channel path and name by default, based on the page slug, "
+"or you can enter a custom channel path if you want to embed an existing one, "
+"for example."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:14
+#, php-format
+msgid "Enable channel%s (a standalone discussion area)"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:15
+msgid ""
+"Check this to enable a standalone Muut channel embed for the page. This will "
+"deactivate the other two tabs."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:18
+#: views/blocks/help-tab-post-editor-forum.php:18
+#: views/blocks/metabox-tab-channel.php:25
+#: views/blocks/metabox-tab-forum.php:34
+msgid "Hide online users"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:19
+#: views/blocks/help-tab-post-editor-forum.php:19
+msgid ""
+"Hides the \"Online users\" section. Online status (green dot) is still shown "
+"in the avatars for users who didn't hide it."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:22
+#: views/blocks/help-tab-post-editor-commenting.php:26
+#: views/blocks/help-tab-post-editor-forum.php:22
+#: views/blocks/metabox-tab-channel.php:26
+#: views/blocks/metabox-tab-commenting.php:33
+#: views/blocks/metabox-tab-forum.php:35
+#: views/widgets/admin-widget-channel-embed.php:26
+#: views/widgets/admin-widget-my-feed.php:24
+msgid "Disable image uploads"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-channel.php:23
+#: views/blocks/help-tab-post-editor-commenting.php:27
+#: views/blocks/help-tab-post-editor-forum.php:23
+msgid ""
+"Linking to external images is still possible when uploads are disabled. "
+"Images are always displayed in gallery view."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:10
+msgid ""
+"This tab can be used to set up Muut commenting on the page (or post). It is "
+"the only tab that is visible on all post types (not just pages)."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:14
+msgid "Enable Muut commenting"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:15
+msgid ""
+"Check this to enable Muut commenting for the page or post. If on a page, it "
+"will deactivate the other two tabs."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:18
+#, php-format
+msgid "Flat%s commenting"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:19
+msgid ""
+"A commenting section where all the posts appear in a single thread and will "
+"be listed in chronological order from top to bottom."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:22
+#, php-format
+msgid "Threaded%s commenting"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-commenting.php:23
+msgid ""
+"A commenting section where top level comments can have one level of replies. "
+"The threads with the newest replies appear on top."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-forum.php:10
+msgid ""
+"By using this tab, you will embed the full Muut forum using the rich user "
+"interface, which also allows a truly customizable look and feel using CSS."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-forum.php:15
+msgid ""
+"Check this to enable the embed for the full Muut forum. It includes Muut's "
+"rich interface that is completely customizable with CSS."
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-forum.php:26
+msgid "Show Comments"
+msgstr ""
+
+#: views/blocks/help-tab-post-editor-forum.php:27
+#, php-format
+msgid ""
+"Shows a channel called %sComments%s at the bottom of the forum navigation "
+"that contains every active commenting section from posts and pages on the "
+"website. Comment threads that a user participated in or watched will always "
+"show up in her personal \"My feed\" regardless of this setting."
+msgstr ""
+
+#: views/blocks/help-tab-settings-commenting.php:12
+msgid "Replaces default Wordpress commenting."
+msgstr ""
+
+#: views/blocks/help-tab-settings-commenting.php:15
+msgid "Use Muut commenting on posts with existing comments"
+msgstr ""
+
+#: views/blocks/help-tab-settings-commenting.php:16
+#, php-format
+msgid ""
+"Posts that already have comments using the default WordPress discussion "
+"system will not default to using Muut. This can be changed on a post-by-post "
+"bases using the %sCommenting%s tab in the Muut metabox for that post."
+msgstr ""
+
+#: views/blocks/help-tab-settings-fedid.php:10
+#, php-format
+msgid ""
+"Federated Identities (previously called Single Sign-On, or SSO) lets your "
+"users use WordPress registration and login instead of Muut's. For this to "
+"work you need to %supgrade%s your forum to support Federated Identities with "
+"the Small or Medium subscription and then enable input your API keys in the "
+"Signed Setup section."
+msgstr ""
+
+#: views/blocks/help-tab-settings-fedid.php:13
+msgid ""
+"Once enabled, Federated Identities will be used on all the forum and "
+"commenting instances created by this plugin."
+msgstr ""
+
+#: views/blocks/help-tab-settings-general.php:12
+#, php-format
+msgid ""
+"This is the forum name you registered with Muut.%sForum name:%smyforumname%s"
+msgstr ""
+
+#: views/blocks/help-tab-settings-general.php:16
+#, php-format
+msgid ""
+"This is the language for all the Muut embeds. The plugin itself uses the "
+"language set for your entire WordPress website. Not seeing your language? "
+"Find out how to provide it yourself %shere!%s"
+msgstr ""
+
+#: views/blocks/help-tab-settings-overview.php:9
+#, php-format
+msgid ""
+"If you have already have a Muut forum, you can enter your forum name on the "
+"settings page right away. If not, you'll have to set up a %snew forum%s at "
+"the Muut website first."
+msgstr ""
+
+#: views/blocks/help-tab-settings-overview.php:10
+msgid ""
+"Once you have saved your forum, you can edit the other various settings for "
+"your implementation and you can go ahead and add a new page."
+msgstr ""
+
+#: views/blocks/help-tab-settings-seo.php:11
+msgid "Allow search engines to crawl discussions at"
+msgstr ""
+
+#: views/blocks/help-tab-settings-seo.php:12
+msgid ""
+"This setting should generally not be touched. When checked, it allows search "
+"engines to index your discussions under your domain as well."
+msgstr ""
+
+#: views/blocks/help-tab-settings-seo.php:16
+msgid "Serve from your own S3 Bucket"
+msgstr ""
+
+#: views/blocks/help-tab-settings-seo.php:17
+#, php-format
+msgid ""
+"If you have a Small or Medium subscription and have set up a custom S3 "
+"Bucket for your Muut forum, you can serve content directly from that bucket "
+"rather than from %s. Once enabled, the bucket name you enter must be the "
+"same S3 bucket registered for the forum in the Muut settings. %sFor more "
+"details on S3 Bucket setup, see the %smain Muut documentation%s."
+msgstr ""
+
+#: views/blocks/help-tab-settings-sidebar.php:10
+msgid "For more information"
+msgstr ""
+
+#: views/blocks/help-tab-settings-sidebar.php:13
+msgid "Muut Documentation"
+msgstr ""
+
+#: views/blocks/help-tab-settings-sidebar.php:16
+msgid "Setup New Forum"
+msgstr ""
+
+#: views/blocks/help-tab-settings-sidebar.php:19
+msgid "Upgrade Pricing"
+msgstr ""
+
+#: views/blocks/help-tab-settings-signedsetup.php:10
+msgid ""
+"If you have a Small or Medium subscription and are using Federated "
+"Identities (Small) or Secure Embedding (Medium), you need to enable signed "
+"embedding by entering your API credentials in this section. You can get the "
+"API keys directly from the forum frontend (either on your embed or at muut."
+"com) by clicking the \"Settings\" link and copying the API Key and Secret "
+"Key from the top bar."
+msgstr ""
+
+#: views/blocks/help-tab-settings-signedsetup.php:13
+#, php-format
+msgid ""
+"If you are using a caching plugin, make sure to check the \"Caching\" "
+"checkbox in this section so that the signed data is dynamically fetched. "
+"Note that the cache %smust%s be set to expire within every 24 hours."
+msgstr ""
+
+#: views/blocks/help-tab-settings-signedsetup.php:16
+msgid ""
+"This is not required (and is discouraged) if you are not using one of the "
+"premium services dependent on it."
+msgstr ""
+
+#: views/blocks/help-tab-settings-signedsetup.php:19
+#, php-format
+msgid ""
+"For more information about our premium plans and features, see our %spricing "
+"page%s or %supgrade your forum%s now."
+msgstr ""
+
+#: views/blocks/help-tab-settings-webhooks.php:10
+msgid ""
+"Muut Webhooks are HTTP callbacks triggered by Muut events. They communicate "
+"with your WordPress website to send event notifications on Muut actions "
+"(replies, likes, etc.), that then add support for advanced features and "
+"widgets."
+msgstr ""
+
+#: views/blocks/help-tab-settings-webhooks.php:13
+#, php-format
+msgid ""
+"To use webhooks, you need to %supgrade%s your forum to support Outgoing "
+"Webhooks with a Small or Medium license."
+msgstr ""
+
+#: views/blocks/help-tab-settings-webhooks.php:16
+msgid ""
+"Once you have enabled webhooks here, you need to visit your Muut forum "
+"settings and create a new integration under the Integrations section; give "
+"the integration a name, enter the URL and Secret specified on this page "
+"under \"Webhooks\" section and make sure that all the events are enabled."
+msgstr ""
+
+#: views/blocks/metabox-tab-channel.php:30
+msgid "Channel Path"
+msgstr ""
+
+#: views/blocks/metabox-tab-channel.php:31
+#: views/widgets/admin-widget-channel-embed.php:31
+#, php-format
+msgid "%sdefault%s"
+msgstr ""
+
+#: views/blocks/metabox-tab-commenting.php:29
+msgid "Flat"
+msgstr ""
+
+#: views/blocks/metabox-tab-commenting.php:30
+msgid "Threaded"
+msgstr ""
+
+#: views/blocks/metabox-tab-forum.php:29
+#, php-format
+msgid "Current forum page is %s"
+msgstr ""
+
+#: views/blocks/metabox-tab-forum.php:36
+msgid "Access comments from navigation"
+msgstr ""
+
+#: views/widgets/admin-error-widget-requires-webhooks.php:22
+#, php-format
+msgid ""
+"This widget uses webhooks and requires a Muut Developer subscription. "
+"%sEnable webhooks%s"
+msgstr ""
+
+#: views/widgets/admin-widget-channel-embed.php:22
+#: views/widgets/admin-widget-latest-comments.php:19
+#: views/widgets/admin-widget-my-feed.php:20
+#: views/widgets/admin-widget-online-users.php:20
+#: views/widgets/admin-widget-trending-posts.php:35
+msgid "Display Title:"
+msgstr ""
+
+#: views/widgets/admin-widget-channel-embed.php:30
+msgid "Remote Path:"
+msgstr ""
+
+#: views/widgets/admin-widget-latest-comments.php:23
+msgid "Number of comments to show:"
+msgstr ""
+
+#: views/widgets/admin-widget-online-users.php:24
+msgid "Show number of logged in users"
+msgstr ""
+
+#: views/widgets/admin-widget-online-users.php:27
+msgid "Show anonymous user count"
+msgstr ""
+
+#: views/widgets/admin-widget-trending-posts.php:39
+msgid "Number of posts to show:"
+msgstr ""
+
+#: views/widgets/admin-widget-trending-posts.php:43
+msgid "Channels:"
+msgstr ""
+
+#: views/widgets/widget-online-users.php:21
+msgid "anonymous users"
+msgstr ""
+
+#: views/widgets/widget-trending-posts.php:29
+msgid "comments"
+msgstr ""
+
+#: views/widgets/widget-trending-posts.php:29
+msgid "likes"
+msgstr ""
